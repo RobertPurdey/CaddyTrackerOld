@@ -49,14 +49,7 @@ public class PlayerService extends EntityService<Player>
 		return Player.class;
 	}
 
-	/**
-	 * Validates player entity to be saved:
-	 * - name must be between 1 and 16 characters.
-	 *
-	 * @param player - player to be saved to the db
-	 *
-	 * @return true if player name is valid, false otherwise.
-	 */
+	//testchange
 	@Override
 	protected Boolean validateEntityToSave(Player player)
 	{
