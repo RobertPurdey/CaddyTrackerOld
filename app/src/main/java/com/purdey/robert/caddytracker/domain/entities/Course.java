@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Created by Robert Purdey on 11/6/2016.
  *
  * Represents a golf course.
- *
+ * edit pulled
  */
 public class Course extends SugarRecord
 {
