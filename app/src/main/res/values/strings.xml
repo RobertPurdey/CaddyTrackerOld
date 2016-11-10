@@ -1,0 +1,32 @@
+<resources>
+    <!-- Activity Labels -->
+    <string name="app_name">Caddy Tracker</string>
+    <string name="main_menu">Main Menu</string>
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="holes_colon">Holes:</string>
+    <string name="hole">Hole</string>
+    <string name="par_colon">Par:</string>
+    <string name="par">Par</string>
+    <string name="course_name">Course Name</string>
+    <string name="player_name">Player Name</string>
+
+    <!-- Main Menu -->
+    <string name="new_game">New Game</string>
+    <string name="resume_game">Resume Game</string>
+    <string name="statistics">Statistics</string>
+    <string name="manage_players">Manage Players</string>
+    <string name="manage_courses">Manage Courses</string>
+
+    <!-- Manage Player -->
+    <string name="add_player">Add Player</string>
+
+    <!-- Manage Course -->
+    <string name="add_course">Add Course</string>
+
+    <!-- Add Course -->
+    <string name="num_of_holes"># Of Holes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

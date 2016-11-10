@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ID of entity in row item -->
+    <TextView
+        android:id="@+id/txtv_course_pkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <!-- Course Name -->
+    <TextView
+        android:id="@+id/txtv_course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Name"
+        android:textSize="30dp"
+        android:gravity="center_vertical"/>
+
+    <!-- Holes label -->
+    <TextView
+        android:id="@+id/txtv_course_holes_label"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/holes_colon"
+        android:textSize="15dp"
+        android:layout_below="@id/txtv_course_name"
+        android:gravity="center_vertical"/>
+
+    <!-- Number of holes -->
+    <TextView
+        android:id="@+id/txtv_course_holes"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="Name"
+        android:textSize="15dp"
+        android:layout_below="@id/txtv_course_name"
+        android:layout_toRightOf="@id/txtv_course_holes_label"
+        android:gravity="center_vertical"/>
+
+    <!-- Par label -->
+    <TextView
+        android:id="@+id/txtv_course_par_label"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/par_colon"
+        android:textSize="15dp"
+        android:layout_below="@id/txtv_course_name"
+        android:layout_toRightOf="@id/txtv_course_holes"
+        android:gravity="center_vertical"/>
+
+    <!-- Course par value -->
+    <TextView
+        android:id="@+id/txtv_course_par"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Name"
+        android:textSize="15dp"
+        android:layout_below="@id/txtv_course_name"
+        android:layout_toRightOf="@id/txtv_course_par_label"
+        android:gravity="center_vertical"/>
+
+</RelativeLayout>
