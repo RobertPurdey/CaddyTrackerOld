@@ -49,7 +49,6 @@ public class PlayerService extends EntityService<Player>
 		return Player.class;
 	}
 
-	//testchange
 	@Override
 	protected Boolean validateEntityToSave(Player player)
 	{
